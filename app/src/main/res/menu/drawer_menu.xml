@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Logs"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/p_menu_logs"
+                android:icon="@drawable/ic_logs"
+                android:title="All Logs" />
+            <group>
+                <item
+                    android:id="@+id/p_menu_call"
+                    android:icon="@drawable/ic_call"
+                    android:title="Call Logs" />
+                <item
+                    android:id="@+id/p_menu_sms"
+                    android:icon="@drawable/ic_sms"
+                    android:title="SMS Logs" />
+                <item
+                    android:id="@+id/p_menu_notify"
+                    android:icon="@drawable/ic_notification"
+                    android:title="Notification Logs" />
+                <item
+                    android:id="@+id/p_menu_location_log"
+                    android:icon="@drawable/ic_location"
+                    android:title="Location Log" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/p_menu_location"
+        android:icon="@drawable/ic_location"
+        android:title="Current Location" />
+    <item
+        android:id="@+id/p_menu_child"
+        android:icon="@drawable/ic_child"
+        android:title="Childrens" />
+    <item
+        android:id="@+id/p_menu_prevent"
+        android:icon="@drawable/ic_app_usage"
+        android:title="App Usages" />
+
+    <item
+        android:id="@+id/p_menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Child Tracking</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Signup"><b>SignUp</b></string>
+    <string name="Login"><b>Login</b></string>
+    <string name="username">Username</string>
+    <string name="email_or_number">Email Or Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="i_am_child">I\'m Child</string>
+    <string name="i_am_parent">I\'m Parent</string>
+    <string name="child_username">Enter Child Username</string>
+    <string name="logout">Logout</string>
+    <string name="call_log">Call Log</string>
+    <string name="msg_log">Message Log</string>
+    <string name="notify_log">Notification Log</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="location_log">Location Log</string>
+    <string name="all_logs">All Logs</string>
+    <string name="current_location">Current Location</string>
+    <string name="children">Children</string>
+    <string name="search">Search</string>
+    <string name="app_usage">App Usage</string>
+</resources>
